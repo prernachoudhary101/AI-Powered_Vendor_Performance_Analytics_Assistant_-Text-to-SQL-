@@ -1,19 +1,19 @@
-# 📊 AI-Powered Vendor Performance Analytics Assistant (Text-to-SQL)
+#  AI-Powered Vendor Performance Analytics Assistant (Text-to-SQL)
 
-## 🚀 Overview
+##  Overview
 The AI-Powered Vendor Performance Analytics Assistant is a Text-to-SQL system that allows users to query vendor and supply chain data using natural language.
 
 It leverages Large Language Models (LLMs) to convert user queries into SQL and retrieve insights from a MySQL database, eliminating the need for manual SQL writing and enabling faster business decision-making.
 
 ---
 
-## 🎯 Key Features
+##  Key Features
 
-- 🔍 Natural Language to SQL conversion  
-- 🧠 Schema-aware prompt engineering  
-- 🔗 Multi-table joins, aggregations, and filtering  
-- ⚡ Fast query execution (<10 seconds)  
-- 📈 Vendor performance insights:
+-  Natural Language to SQL conversion  
+-  Schema-aware prompt engineering  
+-  Multi-table joins, aggregations, and filtering  
+-  Fast query execution (<10 seconds)  
+-  Vendor performance insights:
   - Delivery delay analysis  
   - On-time delivery rate  
   - Vendor ranking  
@@ -21,7 +21,7 @@ It leverages Large Language Models (LLMs) to convert user queries into SQL and r
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 User Query (Natural Language)
         ↓
 Prompt Engineering (LangChain)
@@ -36,7 +36,7 @@ Results Display (Pandas)
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Language:** Python  
 - **LLM Framework:** LangChain  
@@ -48,7 +48,7 @@ Results Display (Pandas)
 
 ---
 
-## 🗄️ Database Schema
+##  Database Schema
 
 The project uses a relational database with 5 tables:
 
